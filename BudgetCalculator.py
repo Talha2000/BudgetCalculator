@@ -51,3 +51,6 @@ class Budget(object):
         print("Your current Expenses are:\nRent: %s\nBills: %s\nGroceries: %s" % (rent, bills, groceryMoney))
         os.system('pause')
         self.returnBudget()
+
+
+Budget()
